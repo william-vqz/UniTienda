@@ -1,0 +1,1 @@
+ C:\\Users\\jimen\\OneDrive\\Documents\\tareas\ merari\\unitienda\\.dart_tool\\flutter_build\\8db9e729e9e9c1e9893ba7da28e4d45c\\native_assets.json: 

@@ -1,0 +1,52 @@
+name: unitienda
+description: Control de Uniformes CBTis 272 — Sistema UniTienda v4.0
+publish_to: 'none'
+version: 4.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Estado
+  provider: ^6.1.2
+
+  # Navegación
+  go_router: ^13.2.0
+
+  # UI
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.2.1
+
+  # Gráficas BI
+  fl_chart: ^0.68.0
+
+  # Imágenes
+  image_picker: ^1.1.2
+
+  # Formato moneda
+  intl: ^0.19.0
+
+  # Persistencia local
+  sqflite: ^2.3.3          # Base de datos SQLite
+  path: ^1.9.0              # Ruta del archivo de DB
+  shared_preferences: ^2.3.2 # Sesión de usuario
+
+  # HTTP / API
+  http: ^1.2.1
+
+  # Utilidades
+  uuid: ^4.4.0
+  equatable: ^2.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
